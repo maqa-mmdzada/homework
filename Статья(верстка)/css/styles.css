@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.article {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.title-main {
+  margin-top: 0;
+  margin-bottom: 40px;
+  max-width: 596px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+.text, .list {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+.text-1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.text-2 {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.title-middle {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+.text-3 {
+  margin-top: 40px;
+}
