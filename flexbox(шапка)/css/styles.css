@@ -22,7 +22,7 @@ body{
 
 .square{
     background-color: #000;
-    max-width: 40px;
+    min-width: 40px;
     min-height: 40px;   
 }
 
