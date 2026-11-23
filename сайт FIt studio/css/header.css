@@ -1,0 +1,28 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #d3cbd9;
+    gap: 10px;
+}
+
+.phone{
+    text-align: right;
+}
+
+.phone p{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.phone a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    transition: color 0.2s;
+}
+
+.phone a:hover{
+    color: #3596ED;
+}
