@@ -1,15 +1,16 @@
-html{
-    font-family: Ubuntu, sans-serif;
-    font-weight: 400;
-}
-
 *,
 *::before,
 *::after{
     box-sizing: border-box;
 }
 
+html{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
 body{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -29,7 +30,7 @@ a{
 }
 
 .container{
-    max-width: 1220px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -40,10 +41,12 @@ a{
 }
 
 .text{
+    font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     color: #535755;
+    text-transform: none;
 }
 
 .section{
@@ -53,9 +56,18 @@ a{
 .title-large{
     max-width: 596px;
     margin-bottom: 40px;
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
     font-weight: 600;
     font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.title-medium{
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 115%;
     text-transform: uppercase;
     color: #2c332f;
@@ -68,3 +80,4 @@ a{
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
+
